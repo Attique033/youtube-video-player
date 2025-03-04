@@ -7,6 +7,7 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "test": "vitest",
+    "start": "serve -s dist",
     "test:ui": "vitest --ui",
     "lint": "eslint src --max-warnings=0",
     "typecheck": "tsc --project tsconfig.json --noEmit"
@@ -16,7 +17,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.2.0",
-    "react-youtube": "^10.1.0"
+    "react-youtube": "^10.1.0",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
